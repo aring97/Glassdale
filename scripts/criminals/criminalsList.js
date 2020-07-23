@@ -1,7 +1,7 @@
 import {useCriminals, getCriminals} from "./criminalsDataProvider.js"
 import {criminalsHTML} from "./criminalsHTMLRep.js"
 
-const target=document.querySelector(".criminalContainer")
+const target=document.querySelector(".criminalsContainer")
 export const criminalList=()=>{
     getCriminals()
     .then(()=>{
