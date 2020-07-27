@@ -1,9 +1,1 @@
-.criminalsContainer{
-    display:flex;
-    flex-wrap: wrap;
-}
-.criminal-card{
-    border: dotted black 3px;
-    padding:5px;
-    margin: 3px;
-}
+@import "./criminal.css"
