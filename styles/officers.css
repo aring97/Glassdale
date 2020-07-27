@@ -1,8 +1,8 @@
-.filters__incarceration{
+.filters__officer{
     display:flex;
     flex-wrap: wrap;
 }
-.criminal-card{
+.officer-card{
     border: dotted black 3px;
     width:20%;
     padding:5px;
