@@ -40,7 +40,7 @@ export const ConvictionSelect = () => {
                 <option value="0">Please select a crime...</option>
                 ${
                     convictionsCollection.map(convictionsObj=>{
-                        return `<option id=${convictionsObj.id}>${convictionsObj.name}</option>`;
+                        return `<option>${convictionsObj.name}</option>`;
                     }).join("")
                 }                
             </select>
