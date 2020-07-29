@@ -1,4 +1,4 @@
-.filters__officer{
+.officersContainer{
     display:flex;
     flex-wrap: wrap;
 }

@@ -1,7 +1,7 @@
 import {useOfficers, getOfficers} from "./officersDataProvider.js"
 import {officersHTML} from "./officersHTMLReps.js"
 
-const target=document.querySelector(".filters__officer")
+const target=document.querySelector(".officersContainer")
 export const officersList=()=>{
     getOfficers()
     .then(()=>{

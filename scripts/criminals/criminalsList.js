@@ -1,7 +1,7 @@
 import {useCriminals, getCriminals} from "./criminalsDataProvider.js"
 import {criminalsHTML} from "./criminalsHTMLRep.js"
 
-const target=document.querySelector(".filters__incarceration")
+const target=document.querySelector(".criminalsContainer")
 const eventHub = document.querySelector(".container")
 
 // Listen for the custom event you dispatched in ConvictionSelect
