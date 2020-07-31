@@ -1,0 +1,27 @@
+.upperContent{
+    display: flex;
+}
+.criminalsContainer{
+    width:70%
+}
+.noteFormContainer{
+    display: flex;
+    flex-direction: column;
+}
+.note{
+    background-color: aqua;
+    border: solid black 5px
+}
+#noteForm--suspect{
+    width:25%;
+}
+#noteForm--author{
+    width:25%;
+}
+#noteForm--text{
+    width:75%;
+    height:200px;
+}
+#saveNote{
+    width:100px;
+}
