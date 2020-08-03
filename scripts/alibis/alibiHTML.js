@@ -11,7 +11,7 @@ export const alibiHTML=(criminalObj)=>{
          added+=`
         <p class="name">name: ${associateObj.name}</p>
         <p class="alibi">alibi: ${associateObj.alibi}</p>
-        <br />
+        <hr />
         `
     });
     criminalalibiHTML+=added;
