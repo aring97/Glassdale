@@ -1,3 +1,9 @@
 @import "./criminal.css"; 
 @import "./officers.css";
-@import "./notes.css"
+@import "./notes.css";
+@import "./alibi.css";
+@import "witnesses.css";
+.upperContent{
+    display:flex;
+    flex-direction: column;
+}

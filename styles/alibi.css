@@ -1,0 +1,8 @@
+.alibiContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.alibi--card{
+    border:3px blue solid;
+    width: 25%
+}
