@@ -9,9 +9,9 @@ export const alibiHTML=(criminalObj)=>{
     let added=""
     criminalObj.known_associates.forEach(associateObj=> {
          added+=`
-        <p>name: ${associateObj.name}</p>
-        <p>alibi: ${associateObj.alibi}</p>
-        <button class="addNote">Add to notes</button>
+        <p class="name">name: ${associateObj.name}</p>
+        <p class="alibi">alibi: ${associateObj.alibi}</p>
+        <br />
         `
     });
     criminalalibiHTML+=added;
