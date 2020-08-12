@@ -2,11 +2,19 @@
     display: flex;
 }
 .criminalsContainer{
-    width:70%
+    position: relative;
+    left:2%;
+    width:60%;
 }
 .noteFormContainer{
     display: flex;
     flex-direction: column;
+}
+.notesList{
+    width:25%;
+    position: fixed;
+    top:400px;
+    right:0;
 }
 .note{
     background-color: aqua;

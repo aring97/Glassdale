@@ -2,11 +2,17 @@
   "notes": [
     {
       "id": 1,
-      "suspectName": "Madelyn Lebsack",
+      "criminalId": 1,
       "author": "Marques Balistreri",
       "content": "Conflict in alibi. Follow up later",
-      "date": ""
+      "date": 1597260296597
+    },
+    {
+      "criminalId": 3,
+      "author": "john",
+      "content": "hello to everyone",
+      "date": 1597260296597,
+      "id": 2
     }
-
   ]
 }

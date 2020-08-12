@@ -15,6 +15,6 @@ contentTarget.addEventListener("click",(boxClicked)=>{
             return targetId===currentCriminal.id
         })
         const content=alibiHTML(matchingCriminal[0])
-        target.innerHTML+=content
+        target.innerHTML=content
     })
 })
